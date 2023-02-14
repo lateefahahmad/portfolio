@@ -1,0 +1,141 @@
+
+#bg-img {
+        background-image: url('images/bgimg4.gif');
+        background-size: cover;
+        width: 720px;
+        height: 420px; 
+
+}
+
+
+/* doesnt actually style the continer of button as it's all in 'html, body' {} styling below */
+.btncontainer { 
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+
+#middlebtn {
+        
+        font-family: Helvetica;
+        letter-spacing: 0.4em;
+        background-color: transparent;
+        border: none;
+        font-weight: 500;
+        font-size: 50px;
+        text-align: center;
+        color: #202125;
+        cursor: pointer;
+        max-width: 600px; 
+        width: 100%; 
+        outline: 5px solid;
+        outline-color: rgba(71, 126, 232,0.5);
+        outline-offset: 70px;
+        transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+
+#middlebtn:hover {
+        color: rgba(183, 170, 236, 0.991);
+        outline-color: rgba(71, 126, 232, 0);
+        outline-offset: 300px;
+}
+
+
+ .firstPage {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+
+
+#secondPage {
+justify-content: center;
+background-color: rgb(87, 144, 180); 
+
+}
+
+#icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;  
+}
+
+#linkedin-icon {
+        /* display: flex;
+        align-items: center;
+        justify-content: space-around; */
+        
+}
+
+#github-icon {
+        /* display: flex;
+        align-items: center;
+        justify-content: space-around; */
+        
+}
+
+#mail-icon {
+        /* display: flex;
+        align-items: center;
+        justify-content: space-around;
+         */
+}
+
+#linkedin-icon:hover {
+/* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+        
+#github-icon:hover {
+/* Start the shake animation and make the animation last for 0.5 seconds */
+ animation: shake 0.5s;
+                
+/* When the animation is finished, start again */
+animation-iteration-count: infinite;
+}
+              
+#mail-icon:hover {
+/* Start the shake animation and make the animation last for 0.5 seconds */
+animation: shake 0.5s;
+        
+/* When the animation is finished, start again */         
+animation-iteration-count: infinite;
+}
+        
+
+@keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+
+      }
+      
+      * {
+        padding: 0;
+        margin: 0px;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      h1 {
+          color: #fff;
+          text-align: center;
+          font-size: 10vw;
+      }
+      div#fp-nav a span {
+          background: #fff !important;
+      }
+
+
+      
