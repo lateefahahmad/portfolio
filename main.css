@@ -56,7 +56,7 @@
 
 #secondPage {
 justify-content: center;
-background-color: rgb(87, 144, 180); 
+background-color: rgb(131, 179, 208); 
 
 }
 
@@ -123,19 +123,34 @@ animation-iteration-count: infinite;
 
       }
       
-      * {
-        padding: 0;
-        margin: 0px;
-        font-family: 'Josefin Sans', sans-serif;
-      }
-      h1 {
-          color: #fff;
-          text-align: center;
-          font-size: 10vw;
-      }
-      div#fp-nav a span {
-          background: #fff !important;
-      }
+
+/* my projects page */
+      /* parent container div that contains both left and right divs */
+      .float-container {
+        padding: 20px;
+    }
+    
+    .float-child {
+        width: 50%;
+        float: left;
+        padding: 20px;
+        /* border: 2px solid rgba(24, 7, 7, 0.228); */
+    } 
 
 
-      
+    .textSection {
+        display: inline-block;
+        margin-top: 100px;
+        
+    }
+
+    .imageSection {
+        
+        
+    }
+
+
+    .img1 {
+        width: 100%;
+        height: auto;
+}
